@@ -26,3 +26,22 @@
 
  <p>주어진 수들 중 소수의 개수를 출력한다.</p>
 
+***
+
+### 참고 내용
+<https://velog.io/@changhee09/알고리즘-소수의-판별-에라토스테네스의-체>
+
+<br>
+
+```python
+# 한 줄로 입력받은 숫자를 리스트로 저장
+numbers = list(map(int, input().split()))
+``` 
+
+* split() : 공백으로 구분된 입력 값을 분리하여 문자열 리스트 생성
+    * split(",") : 콤마(,)로 구분
+* map() : 문자열 리스트의 각 요소를 int로 변환
+    * map(function, iterable, ...)
+    * function : 각 요소에 적용할 함수
+    * iterable : 반복 가능한 객체  
+* list() : 변환된 값을 리스트로 저장
